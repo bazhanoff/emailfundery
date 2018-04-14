@@ -1,0 +1,21 @@
+@import "../variables";
+
+.footer {
+	background-color: #181d25;
+	width: 100%;
+	color: $white;
+}
+
+.footer__content {
+	padding: 30px;
+}
+
+.footer__info {
+	max-width: 153px;
+}
+
+.footer__link {
+	color: #656b75;
+	display: inline-block;
+	vertical-align: middle;
+}

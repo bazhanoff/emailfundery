@@ -1,5 +1,11 @@
 @import "../variables";
 
 .page {
-	width: 600px
+	background-color: $white;
+	font-family: 'Trebuchet MS', Helvetica, sans-serif;
+	color: $white;
+	font-size: 17px;
+	line-height: 1.5;
+	margin: 0;
+	padding: 0;
 }

@@ -1,0 +1,13 @@
+@import "../variables";
+
+.title {
+	margin-top: 0;
+	margin-bottom: 0;
+	color: $white;
+	font-weight: bold;
+
+	&--xxl {
+		font-size: 29px;
+	}
+}
+

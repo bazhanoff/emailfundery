@@ -1,0 +1,77 @@
+@import "../variables";
+
+.content {
+	width: 100%;
+	padding: 30px 30px 90px;
+	background-color: #1f252c;
+}
+
+.content__info {
+	text-align: center;
+}
+
+.content__title {
+	margin-bottom: 17px;
+}
+
+.content__footer {
+	text-align: center;
+	margin-top: 35px;
+}
+
+.content__telegram {
+	margin-top: 15px;
+}
+
+.content__telegram-link{
+	color: #95c93d;
+}
+
+.content__about {
+	margin-top: 55px;
+}
+
+.content__about-caption{
+	margin-bottom: 22px;
+}
+
+.content__about-text:not(:first-child) {
+	margin-top: 15px;
+}
+
+.content__text--green {
+	font-weight: bold;
+	color: #95c93d;
+}
+
+.content__countries {
+	margin-top: 20px;
+}
+
+.content__countries-img {
+	display: inline-block;
+	vertical-align: middle;
+}
+
+.content__countries-text {
+	display: inline-block;
+	vertical-align: middle;
+}
+
+.content__earns {
+	margin-top: 65px;
+}
+
+.content__earn {
+	margin-top: 20px;
+}
+
+.content__earn-caption {
+	text-decoration: underline;
+	color: #95c93d;
+}
+
+.content__earns-footer {
+	text-align: center;
+	margin-top: 50px;
+}

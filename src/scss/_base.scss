@@ -1,36 +1,34 @@
 @import "variables";
 
-@media (min-width: 768px) {
-
-	html {
-		font-size: 62.5%;
-	}
-}
-
-@media (max-width: 767px) {
-
-	html {
-		font-size: 55.14705%;
-	}
-}
-
 body {
 	background-color: $white;
-	font-family: -apple-system, BlinkMacSystemFont, Roboto, Open Sans, Ubuntu, Fira Sans, Helvetica Neue, sans-serif;
+	font-family: 'Trebuchet MS', Helvetica, sans-serif;
 	color: $black;
-	font-size: 1.7rem;
+	font-size: 17px;
+	line-height: 1.5;
 	margin: 0;
+	padding: 0;
 }
 
 
 p {
+	font-family: 'Trebuchet MS', Helvetica, sans-serif;
+	color: $white;
+	font-size: 17px;
+	line-height: 1.5;
 	margin-top: 0;
 	margin-bottom: 2rem;
-	//line-height: 1.6;
 }
 
 p:last-child {
 	margin-bottom: 0;
+}
+
+span {
+	font-family: 'Trebuchet MS', Helvetica, sans-serif;
+	color: $white;
+	font-size: 17px;
+	line-height: 1.5;
 }
 
 //a {

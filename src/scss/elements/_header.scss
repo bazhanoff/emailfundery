@@ -1,0 +1,32 @@
+@import "../variables";
+
+.header {
+	background-color: #181d25;
+	width: 100%;
+}
+
+.header__precontent {
+	height: 17px;
+	background-color: $white;
+}
+
+.header__content {
+	padding: 30px;
+}
+
+.header__logo, .header__aside {
+	display: inline-block;
+	max-width: 290px;
+	vertical-align: middle;
+}
+
+.header__link {
+	color: #656b75;
+	display: inline-block;
+	vertical-align: middle;
+}
+
+.header__globe {
+	display: inline-block;
+	vertical-align: middle;
+}
