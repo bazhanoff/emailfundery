@@ -42,7 +42,7 @@ gulp.task('styles', function () {
 });
 
 gulp.task('inline', function () {
-    return gulp.src('build/index.html')
+    return gulp.src('build/*.html')
         .pipe(inlineCss({
             preserveMediaQueries: true,
             applyTableAttributes: true
