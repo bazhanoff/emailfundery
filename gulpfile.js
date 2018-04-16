@@ -32,7 +32,7 @@ gulp.task('styles', function () {
             browsers: ['last 2 versions']
         }), cssnano
     ];
-    return gulp.src('src/scss/style.scss')
+    return gulp.src('src/scss/style*.scss')
         .pipe(sourcemaps.init())
         .pipe(sass().on('error', sass.logError))
         .pipe(postcss(processors))
@@ -42,7 +42,7 @@ gulp.task('styles', function () {
 });
 
 gulp.task('inline', function () {
-    return gulp.src('build/index.html')
+    return gulp.src('build/*.html')
         .pipe(inlineCss({
             preserveMediaQueries: true,
             applyTableAttributes: true
