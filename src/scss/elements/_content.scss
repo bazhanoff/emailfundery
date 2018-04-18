@@ -109,8 +109,6 @@
 .content__hot-images {
 	display: inline-block;
 	vertical-align: center;
-<<<<<<< HEAD
-=======
 }
 
 .content__b-block {
@@ -261,18 +259,25 @@
 }
 
 .content__stages-aside {
-	margin-top: 34px;
+	text-align: center;
 }
 
 .content__stages-second, .content__stages-last {
 	display: inline-block;
 	vertical-align: top;
-	width: 42%;
+	padding-top: 34px;
+	max-width: 230px;
+	text-align: left;
+	padding-right: 20px;
 }
 
-.content__stages-second {
-	margin-right: 10%;
-}
+//.content__stages-second{
+//	padding-right: 20px;
+//}
+
+//.content__stages-second {
+//	margin-right: 10%;
+//}
 
 .content__unique {
 	margin-top: 90px;
@@ -305,5 +310,4 @@
 
 .content__tokens-arrow-bottom  {
 	padding-top: 27px;
->>>>>>> Create all mails
 }
