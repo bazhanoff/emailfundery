@@ -19,13 +19,7 @@
 							<table width="100%" align="center" cellspacing="0" cellpadding="0" border="0">
 								<tr>
 									<td>
-										<div class="header__precontent">
-										</div>
-									</td>
-								</tr>
-								<tr>
-									<td>
-										<table class="header__content" width="100%" align="center" cellspacing="0"
+										<table class="header__container" width="100%" align="center" cellspacing="0"
 											   cellpadding="0" border="0">
 											<tr>
 												<td>
@@ -72,12 +66,12 @@
 											<table width="100%" align="center" cellspacing="0" cellpadding="0"
 												   border="0">
 												<tr>
-													<td>
+													<td valign="top">
 														<div class="footer__info">
 															Sincerely yours, The ICOVoting team
 														</div>
 													</td>
-													<td align="right">
+													<td valign="top" align="right">
 														<a class="footer__link" href="https://icovoting.com"
 														   target="_blank">
 															icovoting.com

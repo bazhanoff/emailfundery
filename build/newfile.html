@@ -19,13 +19,7 @@
 							<table width="100%" align="center" cellspacing="0" cellpadding="0" border="0">
 								<tr>
 									<td>
-										<div class="header__precontent">
-										</div>
-									</td>
-								</tr>
-								<tr>
-									<td>
-										<table class="header__content" width="100%" align="center" cellspacing="0"
+										<table class="header__container" width="100%" align="center" cellspacing="0"
 											   cellpadding="0" border="0">
 											<tr>
 												<td>
@@ -126,17 +120,17 @@
 						At the moment ICOVoting is:
 					</div>
 					<div class="content__ico-info">
-						<div>
+						<div class="content__ico-box">
 							<span class="content__ico-item">
 							</span>
 							<span class="content__ico-text">6 800 registered users</span>
 						</div>
-						<div>
+						<div class="content__ico-box">
 							<span class="content__ico-item">
 							</span>
 							<span class="content__ico-text">10 000 unique users per month</span>
 						</div>
-						<div>
+						<div class="content__ico-box">
 							<span class="content__ico-item">
 							</span>
 							<span class="content__ico-text">1 500 registered ICO</span>
@@ -170,18 +164,21 @@
 						</div>
 						<div class="content__tokens-item">
 							Attendance is growing
-							<img class="content__tokens-arrow content__tokens-arrow-bottom" alt="arrow-bottom"
-								 src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACIAAAAoCAYAAACb3CikAAAAGXRFWHRTb2Z0d2FyZQBBZG9iZSBJbWFnZVJlYWR5ccllPAAAAQxJREFUeNpinPNY+T8D/cB5IHYG4vfoEkwM9AWGQOyCTYLeDgEB1sHiEIZRh4w6hBzAAsSzqGieEBCHkOuQdCo6RJdch4ymkVGHjDpk1CGjDhl1yKhDRh0y6pDB2GalpH0aCsQCSGISROjzBWJZJP5vIN7ACOyEk+uQzUDsQ6UAuU9J1PyiYsz8psQhGUB8lQqOeA3EQUwUGuAExNeoYMZVSnPNK6hB18l0BGis5Aq1su9LqGNukKDnDRC7AvElapcjL6COuUmE2rdQR1ykVYH2HOqYW3jUvIM64gKtS9ZnUMfcxiL3HuqI8/Qq4p9CHXMHSewD1BHn6F3XPAFiRyA+BXUQyBFn8WkACDAAHJgx8ksAYSwAAAAASUVORK5CYII=">
+							<!--<img class="content__tokens-arrow content__tokens-arrow-bottom" alt="arrow-bottom"-->
+							<!--src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACIAAAAoCAYAAACb3CikAAAAGXRFWHRTb2Z0d2FyZQBBZG9iZSBJbWFnZVJlYWR5ccllPAAAAQxJREFUeNpinPNY+T8D/cB5IHYG4vfoEkwM9AWGQOyCTYLeDgEB1sHiEIZRh4w6hBzAAsSzqGieEBCHkOuQdCo6RJdch4ymkVGHjDpk1CGjDhl1yKhDRh0y6pDB2GalpH0aCsQCSGISROjzBWJZJP5vIN7ACOyEk+uQzUDsQ6UAuU9J1PyiYsz8psQhGUB8lQqOeA3EQUwUGuAExNeoYMZVSnPNK6hB18l0BGis5Aq1su9LqGNukKDnDRC7AvElapcjL6COuUmE2rdQR1ykVYH2HOqYW3jUvIM64gKtS9ZnUMfcxiL3HuqI8/Qq4p9CHXMHSewD1BHn6F3XPAFiRyA+BXUQyBFn8WkACDAAHJgx8ksAYSwAAAAASUVORK5CYII=">-->
 						</div>
 					</div>
 					<div class="content__tokensbox">
+						<div class="content__tokens-item" style="width: 42%;">
+							Ad price is growing
+							<img class="content__tokens-arrow" alt="arrow-right"
+								 src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAC4AAAAUCAYAAADyWA/8AAAAGXRFWHRTb2Z0d2FyZQBBZG9iZSBJbWFnZVJlYWR5ccllPAAAAPNJREFUeNrUlb0OAUEUhXdRqrFoxM8KShIthRqV3mt5BtEpJJSeQCyRKMRvTc25yZ1kMrHb7tyTfMlkZoovk7tn3dml7FgSHyzBB4zAKepywrEnQ1ACLbABVSnirrYusnxNgriZAsv70sQpeZavmwcpkAYdkIxZshKy74E16INAF1+BruUv7/HLk/xejYrt0io5lm9ImHEzWZZvShOnZMBcorgjcVQoLzBOCJSmZtmR+FaI9BP0SFr1+MCSH9AETEPOHnqHK/E3V0zcaYfs382/poSP86+07eI3nunA9jr8ausrSx8k9PgCnLk1SPoYdfknwABpnCk0g/P3TAAAAABJRU5ErkJggg==">
+							<!--<img class="content__tokens-arrow" alt="arrow-left"-->
+							<!--src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAC4AAAAUCAYAAADyWA/8AAAAGXRFWHRTb2Z0d2FyZQBBZG9iZSBJbWFnZVJlYWR5ccllPAAAAOxJREFUeNpinPNYmYEAUAXidUDMDcSeQHyTYRAAJiIcvR+IdYBYEYgjGQYJwOdwNaijpZHE2Ae7w9WxOHpQAWwO14A6WophEAMWNL4mEO8DYgkc6hWA2GWA3fwXiE+zoDkaFNLieDRFQPFAgxOwpKJFhKMHE7AAOVx7iDkanjlBlYsYwxADTAxDFIAcHgzEr4eiw68AsSMQvxqKSeUq1PEvh4i7jyOX49egjsdXAa0A4rmDrQICgetA7ITH8Q+AeM9gLVWuQ0P++VAsDm9AHf9sKJbjN7E4/udQqYBuQR0PKnXuA/HyweJwgAADAELiKfkflgUzAAAAAElFTkSuQmCC">-->
+						</div>
 						<div class="content__tokens-item content__tokens-growing">
 							Token value is growing
-							<img class="content__tokens-arrow" alt="arrow-left"
-								 src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAC4AAAAUCAYAAADyWA/8AAAAGXRFWHRTb2Z0d2FyZQBBZG9iZSBJbWFnZVJlYWR5ccllPAAAAOxJREFUeNpinPNYmYEAUAXidUDMDcSeQHyTYRAAJiIcvR+IdYBYEYgjGQYJwOdwNaijpZHE2Ae7w9WxOHpQAWwO14A6WophEAMWNL4mEO8DYgkc6hWA2GWA3fwXiE+zoDkaFNLieDRFQPFAgxOwpKJFhKMHE7AAOVx7iDkanjlBlYsYwxADTAxDFIAcHgzEr4eiw68AsSMQvxqKSeUq1PEvh4i7jyOX49egjsdXAa0A4rmDrQICgetA7ITH8Q+AeM9gLVWuQ0P++VAsDm9AHf9sKJbjN7E4/udQqYBuQR0PKnXuA/HyweJwgAADAELiKfkflgUzAAAAAElFTkSuQmCC">
-						</div>
-						<div class="content__tokens-item">
-							Ad price is growing
+
 						</div>
 					</div>
 				</div>
@@ -190,17 +187,17 @@
 						How to spend tokens:
 					</div>
 					<div class="content__ico-info">
-						<div>
+						<div class="content__ico-box">
 							<span class="content__ico-item">
 							</span>
 							<span class="content__ico-text">buy advertising on our website</span>
 						</div>
-						<div>
+						<div class="content__ico-box">
 							<span class="content__ico-item">
 							</span>
 							<span class="content__ico-text">exchange for cryptocurrency in our exchanger (after June)</span>
 						</div>
-						<div>
+						<div class="content__ico-box">
 							<span class="content__ico-item">
 							</span>
 							<span class="content__ico-text">sell on the stock exchange (in late August)</span>
@@ -269,8 +266,8 @@
 							</td>
 							<td>
 								<a href="#0" target="_blank" class="social-links__link">
-								<img alt="blog"
-								src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACkAAAAoCAYAAABjPNNTAAAEG0lEQVRYhcXYaYiVVRgH8N9cZ4rMjBYnbVEMJ8UaLTUqyg9mZQVJIC1IFFHZVEJkFBIiWUQLbdBiC1GIKZVgRYRCZFi5QBSmLZNIZlo2FClt5Jj24bl3Gsf3fc+91yv94TLMec5znv97zrOd0zS1Y1471uJ3/IYd6MJmfI0N+AQ7/U9oLv89rPwblDNvD9bjfSzDCnQfdHZllGqYNxZ3YDm240Wcc5B47We8HhyNG7EKn+M6HNIoUn1RL8neaMcr2IgZ/nOhhqERJCsYiuexDlMauG5DSVYwWgTXIrQ2YsF+IydMasGJ+A4/4E8MQMsBrt2Oa/GlcIW60YxtuCpDNhxjcB4m43Q01bj+cXgHD2MO/qmXZB6+Lf/eKv8/BNNwDc6qwUYTZuMMXCEKRk2oxSd/xNM4G+Pwukjy1WIKPsLgGnRQf+B8JlxkNBZjb5V6Y7ASJ9Vi7ECjuxPTca4om9WgTZTX46s10izy26OigejCprLxDapvKlZjPO7H3dIBNkKkqYnV2GjGkcKh+2JPmehyLMUaxcfaLQLkAyyQ36xU0I4luFgi6ouOuyR86C5RoztxOw5PGF+GCeIDU7gA96Ym1eKTbXhSpKXZOLRg7hZxlKuqWPceXFg0oZ7AGYQHxU5dVDBvR1meIlrCQpH4cyfUixHCX5+Sv6t/4FLpyG/F43nCRjQYM8VunZAj3ymIdiXWmY7zswQlEVnVJuM8jMPHGJUj3yqajVSFekbGqZREl1ISUTta1OcnRMddC4aJajIiR74cDyXWGIWb+g42Te2YV6TUjptxPfonaQa2iAq0NUPWIkrqqQX623Ey/qoMpHxyvfC54XhBdQ3FULwp+87TjVsVu9dg4Ro9qDZwusSOThQ7lcJ4PJYjW4lXE/qz9CqttUb3KtH8rqhi7kxRUbJwn+JSeIpe1+V6UtCvuETU8xSelZ1DN+K1hG7PkdebJ//G1aLlKkKbqPdZeCShe6XyB2aRHIjLxB16Go7NWWRXeaGUj94pnnD6Yp2I9DwcJe5W+5BsxjyRAt4Wd+gl4towX9wg++IXcecpitZWGbmvjAUFejCpN8kS3sBc+391MzpEn5jVpn2IlxPGbskZX6w4re2zkzNwecLQeDyQI5sr/DQPo0SP2Rc/4dMCvbE4pkJyVoJgBTfI9q9t0kc3LWe8KJ2VcGZJdC9tSXqBASJPZuGlhO7knPHVCb32krjj1IIjcsbXiq49D+Nk+/RXCXsjS+INaFeaWw82F8jeK5D1w8iM8U3YXaA3vCS652VJaoEv8E2BfE1CP6vf7FZ8AkMqgTNHvKYVYa+4UxehMyEfljP+c4FOT3SvF0k5j+hu3IZ3EyS+T8gH5owXPWL1711xluI0PCdKXbd4r1woctz8BIGUMfKDtEhvwL9OIM3WyUXlWQAAAABJRU5ErkJggg==">
+									<img alt="blog"
+										 src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACkAAAAoCAYAAABjPNNTAAAEG0lEQVRYhcXYaYiVVRgH8N9cZ4rMjBYnbVEMJ8UaLTUqyg9mZQVJIC1IFFHZVEJkFBIiWUQLbdBiC1GIKZVgRYRCZFi5QBSmLZNIZlo2FClt5Jj24bl3Gsf3fc+91yv94TLMec5znv97zrOd0zS1Y1471uJ3/IYd6MJmfI0N+AQ7/U9oLv89rPwblDNvD9bjfSzDCnQfdHZllGqYNxZ3YDm240Wcc5B47We8HhyNG7EKn+M6HNIoUn1RL8neaMcr2IgZ/nOhhqERJCsYiuexDlMauG5DSVYwWgTXIrQ2YsF+IydMasGJ+A4/4E8MQMsBrt2Oa/GlcIW60YxtuCpDNhxjcB4m43Q01bj+cXgHD2MO/qmXZB6+Lf/eKv8/BNNwDc6qwUYTZuMMXCEKRk2oxSd/xNM4G+Pwukjy1WIKPsLgGnRQf+B8JlxkNBZjb5V6Y7ASJ9Vi7ECjuxPTca4om9WgTZTX46s10izy26OigejCprLxDapvKlZjPO7H3dIBNkKkqYnV2GjGkcKh+2JPmehyLMUaxcfaLQLkAyyQ36xU0I4luFgi6ouOuyR86C5RoztxOw5PGF+GCeIDU7gA96Ym1eKTbXhSpKXZOLRg7hZxlKuqWPceXFg0oZ7AGYQHxU5dVDBvR1meIlrCQpH4cyfUixHCX5+Sv6t/4FLpyG/F43nCRjQYM8VunZAj3ymIdiXWmY7zswQlEVnVJuM8jMPHGJUj3yqajVSFekbGqZREl1ISUTta1OcnRMddC4aJajIiR74cDyXWGIWb+g42Te2YV6TUjptxPfonaQa2iAq0NUPWIkrqqQX623Ey/qoMpHxyvfC54XhBdQ3FULwp+87TjVsVu9dg4Ro9qDZwusSOThQ7lcJ4PJYjW4lXE/qz9CqttUb3KtH8rqhi7kxRUbJwn+JSeIpe1+V6UtCvuETU8xSelZ1DN+K1hG7PkdebJ//G1aLlKkKbqPdZeCShe6XyB2aRHIjLxB16Go7NWWRXeaGUj94pnnD6Yp2I9DwcJe5W+5BsxjyRAt4Wd+gl4towX9wg++IXcecpitZWGbmvjAUFejCpN8kS3sBc+391MzpEn5jVpn2IlxPGbskZX6w4re2zkzNwecLQeDyQI5sr/DQPo0SP2Rc/4dMCvbE4pkJyVoJgBTfI9q9t0kc3LWe8KJ2VcGZJdC9tSXqBASJPZuGlhO7knPHVCb32krjj1IIjcsbXiq49D+Nk+/RXCXsjS+INaFeaWw82F8jeK5D1w8iM8U3YXaA3vCS652VJaoEv8E2BfE1CP6vf7FZ8AkMqgTNHvKYVYa+4UxehMyEfljP+c4FOT3SvF0k5j+hu3IZ3EyS+T8gH5owXPWL1711xluI0PCdKXbd4r1woctz8BIGUMfKDtEhvwL9OIM3WyUXlWQAAAABJRU5ErkJggg==">
 								</a>
 							</td>
 						</tr>
@@ -296,12 +293,12 @@
 											<table width="100%" align="center" cellspacing="0" cellpadding="0"
 												   border="0">
 												<tr>
-													<td>
+													<td valign="top">
 														<div class="footer__info">
 															Sincerely yours, The ICOVoting team
 														</div>
 													</td>
-													<td align="right">
+													<td valign="top" align="right">
 														<a class="footer__link" href="https://icovoting.com"
 														   target="_blank">
 															icovoting.com
