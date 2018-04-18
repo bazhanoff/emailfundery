@@ -1,0 +1,94 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"
+		"http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+	<meta http-equiv="X-UA-Compatible" content="ie=edge"/>
+	<meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+	<meta name="robots" content="nofollow"/>
+	<link rel="stylesheet" href="css/style.css"/>
+	<title></title>
+</head>
+<body>
+<table class="page" width="100%" cellspacing="0" cellpadding="0" border="0">
+	<tr>
+		<td align="center">
+			<table class="wrapper" align="center" cellspacing="0" cellpadding="0" border="0">
+				<tr>
+					<td>
+						<div class="header">
+							<table width="100%" align="center" cellspacing="0" cellpadding="0" border="0">
+								<tr>
+									<td>
+										<table class="header__container" width="100%" align="center" cellspacing="0"
+											   cellpadding="0" border="0">
+											<tr>
+												<td>
+													<div class="header__aside">
+														<table width="100%" align="center" cellspacing="0"
+															   cellpadding="0" border="0">
+															<tr>
+																<td style="padding-right: 30px">
+																	<a class="header__link" href="https://icovoting.com"
+																	   target="_blank">
+																		icovoting.com
+																	</a>
+																</td>
+															</tr>
+														</table>
+													</div>
+												</td>
+											</tr>
+										</table>
+									</td>
+								</tr>
+							</table>
+						</div>
+					</td>
+				</tr>
+				<tr>
+					<td>
+						<table width="100%" class="content" align="center" cellspacing="0" cellpadding="0" border="0">
+							<tr>
+								<td>
+									{% block content %} {% endblock %}
+								</td>
+							</tr>
+						</table>
+					</td>
+				</tr>
+				<tr>
+					<td>
+						<div class="footer">
+							<table width="100%" align="center" cellspacing="0" cellpadding="0" border="0">
+								<tr>
+									<td>
+										<div class="footer__content">
+											<table width="100%" align="center" cellspacing="0" cellpadding="0"
+												   border="0">
+												<tr>
+													<td valign="top">
+														<div class="footer__info">
+															Sincerely yours, The ICOVoting team
+														</div>
+													</td>
+													<td valign="top" align="right">
+														<a class="footer__link" href="https://icovoting.com"
+														   target="_blank">
+															icovoting.com
+														</a>
+													</td>
+												</tr>
+											</table>
+										</div>
+									</td>
+								</tr>
+							</table>
+						</div>
+					</td>
+				</tr>
+			</table>
+		</td>
+	</tr>
+</table>
+</body>
+</html>
