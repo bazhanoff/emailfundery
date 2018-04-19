@@ -125,7 +125,7 @@ gulp.task('serve', ['layout', 'styles', 'images', 'fonts', 'inline'], function (
     gulp.watch('src/**/*.+(html|njc)', ['layout']);
     // gulp.watch('src/**/*.js', ['scripts']);
     gulp.watch(['src/**/*.+(jpg,png)', 'src/**/**/*.+(jpg,png)'], ['images']);
-    gulp.watch('src/**/*.+(woff,woff2)', ['fonts']);
-    gulp.watch('build/*', ['inline']);
+    // gulp.watch('src/**/*.+(woff,woff2)', ['fonts']);
+    // gulp.watch('build/*', ['inline']);
     // gulp.watch('src/**/**/*.svg', ['svgstore']);
 });

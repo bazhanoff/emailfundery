@@ -217,20 +217,20 @@
 	text-align: left;
 }
 
+.content__tokensbox {
+	margin-top: 18px;
+	text-align: center;
+}
+
 .content__tokens-item {
 	display: inline-block;
 	vertical-align: top;
-	width: 45%;
+	width: 100%;
 	text-align: left;
 
-	&:not(:last-child) {
-		padding-right: 5px;
+	&:not(:first-child) {
+		padding-top: 10px;
 	}
-}
-
-.content__tokensbox {
-	margin-top: 13px;
-	text-align: center;
 }
 
 .content__tokens-growing {
@@ -304,8 +304,8 @@
 
 .content__tokens-arrow {
 	display: inline-block;
-	vertical-align: middle;
-	padding-left: 18px;
+	vertical-align: top;
+	padding-top: 10px;
 }
 
 .content__tokens-arrow-bottom  {
